@@ -1,0 +1,14 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "no-unused-vars": "warn",
+    "prefer-const": "error",
+    "no-console": "warn",
+    "quotes": ["error", "single"],
+    "jsx-quotes": ["error", "prefer-double"],
+    "indent": ["warn", 2],
+    "max-len": ["error", { "code": 150 }],
+    "comma-dangle": ["warn", "always-multiline"],
+    "semi": ["warn", "always"]
+  }
+}

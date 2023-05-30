@@ -1,0 +1,101 @@
+.preview {
+  margin-top: 6rem;
+  height: 597px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 15px rgba(95, 67, 208, 0.1);
+  border-radius: 90px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 177px 50px 177px;
+  border-radius: 90px;
+}
+
+.slogan h1 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+  color: #0E0042;
+}
+
+.slogan p {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
+  color: #0E0042;
+}
+
+.quote {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.quote p {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+  color: #0E0042;
+  margin-top: 10px;
+}
+
+.thumb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 471px;
+  height: 117px;
+  background: #C8CDFF;
+  box-shadow: 0px 4px 15px rgba(95, 67, 208, 0.1);
+  border-radius: 100px;
+}
+
+.thumb h1 {
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 80px;
+  color: #0E0042;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_more {
+  width: 294px;
+  height: 70px;
+  margin-right: 2rem;
+
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+
+  background: transparent;
+  border: 1px solid #5F43D0;
+  border-radius: 60px;
+  cursor: pointer;
+}
+
+.btn_buy {
+  width: 294px;
+  height: 70px;
+
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+
+  background: #5F43D0;
+  border-radius: 60px;
+  cursor: pointer;
+}
